@@ -1,0 +1,65 @@
+body{ 
+    background-color: #aa59aa;
+}
+
+h1{
+    display: flex;
+    font-family: 'Varela Round', Arial;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 65px;
+    color: white;
+}
+
+#hms {
+    font-size: 81px;
+    color: white;
+}
+
+#mili {
+    font-size: 61px;
+    color: white;
+}
+
+#Main_Box {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Cron_Box {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #a375a3;
+    opacity: 70%;
+    padding: 4rem;
+    margin: 12px;
+    border: solid;
+    border-color: #a375a3;
+    border-radius: 25px;
+}
+
+button {
+    color: white;
+    font-size: 25px; 
+    padding: 7.5px 12.5px 7.5px 12.5px;
+    margin: 50px;
+    font-family: 'Varela Round', Arial;
+    background: #a375a3;
+    border-radius: 12px;
+    border: solid 2.95px;
+    border-color: #574357;
+    outline: none;
+    opacity: 0.4;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+#NextPage {
+    display: flex;
+    border-radius: 2rem;
+}
